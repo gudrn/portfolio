@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.skill-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+section {
+  padding: 40px 30px;
+  border-top: 1px solid #eee;
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #667eea;
+}
+
+.project-card {
+  background: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #667eea;
+  margin-bottom: 8px;
+  font-size: 1.3em;
+}
+
+.project-card p {
+  color: #666;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tech {
+  background: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85em;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: #764ba2;
+}
+
+footer {
+  background: #f8f9fa;
+  padding: 20px 30px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.contact-text {
+  font-size: 1.1em;
+}
+
+.contact-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.contact-link:first-of-type {
+  margin-right: 20px;
+}
+
+.contact-link:hover {
+  color: #764ba2;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  section {
+    padding: 30px 20px;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+}
